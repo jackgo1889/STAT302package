@@ -1,0 +1,14 @@
+Package: STAT302package
+Title: My First Package
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Jack",
+           family = "Go",
+           role = c("aut", "cre"),
+           email = "goj17@uw.edu",)
+Description: What the package does (one paragraph).
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
