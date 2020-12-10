@@ -18,3 +18,23 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(STAT302package)
 ```
+
+# Introduction
+
+This package was created for STAT 302. It includes the following functions:
+
+my_t.test
+my_lm
+my_knn_cv
+my_rf_cv
+
+In order to install this package from GitHub, you will need to input the following code into your console:
+
+```{r, eval = FALSE}
+devtools::install_github("jackgo1889/STAT302package")
+library(STAT302package)
+```
+
+# A tutorial for my_t.test
+
+
