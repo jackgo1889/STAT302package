@@ -15,7 +15,7 @@
 #'   \code{p_val}: the numeric p-value.
 #'
 #' @examples
-#' \dontrun {
+#' \dontrun{
 #' data_1 <- c(1:25)
 #' my_t_test(data_1, "two.sided", 0)
 #'
