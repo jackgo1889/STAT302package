@@ -23,10 +23,10 @@ library(STAT302package)
 
 This package was created for STAT 302. It includes the following functions:
 
-my_t.test
-my_lm
-my_knn_cv
-my_rf_cv
+\code{my_t_test}
+\code{my_lm}
+\code{my_knn_cv}
+\code{my_rf_cv}
 
 In order to install this package from GitHub, you will need to input the following code into your console:
 
@@ -35,6 +35,24 @@ devtools::install_github("jackgo1889/STAT302package")
 library(STAT302package)
 ```
 
-# A tutorial for my_t.test
+# A tutorial for my_t_test
+
+
+
+First, we must load our example data frame, \code{my_gapminder}, and extract only the \code{lifeExp} data to be used as our \code{x} variable. *Note: Tidyverse is needed.*
+
+```{r}
+library(tidyverse)
+data("my_gapminder")
+example_data <- my_gapminder %>% pull(lifeExp)
+```
+
+Now that we have our data, we will perform three tests demonstrating \code{my_t_test}.
+
+We will test our alternative hypothesis being either less than 60, greater than 60, or both, given that the null hypothesis is 60.
+
+```{r}
+my_
+```
 
 
