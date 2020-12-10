@@ -17,14 +17,14 @@
 #' @examples
 #' \dontrun {
 #' data_1 <- c(1:25)
-#' my_t.test(data_1, "two.sided", 0)
+#' my_t_test(data_1, "two.sided", 0)
 #'
 #' data_2 <- c(1:100)
-#' my_t.test(data_2, "less", 49)
+#' my_t_test(data_2, "less", 49)
 #' }
 #'
 #' @export
-my_t.test <- function(x, alternative, mu) {
+my_t_test <- function(x, alternative, mu) {
   #defining degrees of freedom
   df <- length(x) - 1
   #defining test statistic
